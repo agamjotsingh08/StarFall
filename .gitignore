@@ -1,0 +1,53 @@
+.tools/
+.gradle/
+.idea/
+local.properties
+**/build/
+*.iml
+*.jks
+*.keystore
+keystore.properties
+*.p12
+.DS_Store
+captures/
+test-results/
+dist/
+hs_err_pid*.log
+replay_pid*.log
+
+# Local environment, credentials and editor configuration
+.env
+.env.*
+*.env
+*.env.*
+.venv/
+venv/
+.vscode/
+.fleet/
+.codex/
+.agents/
+.aws/
+.ssh/
+*.pem
+*.key
+*.pfx
+*.p8
+*.mobileprovision
+credentials.json
+credentials*.json
+service-account*.json
+google-services.json
+secrets.properties
+*.apk
+*.aab
+*.log
+
+# Shortcuts for the original development machine only
+/Open Android Studio.cmd
+/scripts/open-studio.ps1
+/scripts/start-emulator.ps1
+
+# Historical and diagnostic captures; publish the reviewed 0.3.0 gallery only
+/docs/screenshots/*.png
+/docs/screenshots/phone-tests/
+/docs/screenshots/phone-v2/
